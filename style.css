@@ -1,0 +1,113 @@
+#heahding {
+    /* display:block;     */
+    margin-top: 2px;
+    margin-left: 2px;
+    margin-bottom: 5px;
+    margin-right: 2px;
+    color: #E8BA40;
+    font-size: 4vw;
+    /* height:20px; */
+    /* background-color:#000; */
+    /* text-align:center; */
+    /* width:200px; */
+}
+
+body,
+html {
+    
+    width: 100%;
+    height: 100%;
+    /* margin: 0%;
+    padding: 0%; */
+    overflow-x: hidden;
+}
+
+body {
+
+    background-repeat: no-repeat;
+    background-image: linear-gradient(#C7395F, #E8BA40);
+    /* background-image: linear-gradient( 180deg,#C7395F 40%, #E8BA40 60%); */
+    /* The image used */
+    /* background-image: url("img_girl.jpg");
+
+    /* Full height */
+    
+    background-position: center;
+
+    background-size: cover;
+    /* Center and scale the image nicely */
+    /*background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; */
+}
+
+#main {
+    margin-top: 25px;
+    margin-bottom: 20px;
+    height: 50%;
+    width: 50%;
+    background-color: #C7395F;
+    border-radius: 40px;
+    padding: 20px;
+    box-shadow: 0 0 17px black;
+}
+
+input {
+    background-color: #C7395F;
+    color: #E8BA40;
+    width: 30vw;
+    height: 40px;
+    font-size: 30px !important;
+    margin: 5px;
+    border-radius: 18px;
+    box-shadow: 2px;
+    outline: none;
+}
+
+input:hover {
+    background-color: #C7395F;
+    color: #E8BA40;
+    transform: translate(0, -2px);
+    transition: 0.3s;
+    /* text-shadow: 1px 1px 1px grey; */
+    /* border: 0px groover; */
+    /* -webkit-transform: translate(0px, -1px);
+    transform: translate(0, -1px);    */
+}
+
+#submit {
+    background-color: #E8BA40;
+    border-radius: 60px;
+    color: #C7395F;
+    width: 10vw;
+    height: 40px;
+    font-size: 22px;
+}
+
+#submit:hover {
+    /* border-radius: 61px;
+    /* width: 121px;
+    height: 41px; */
+    /* transform: translate(0, -2px);
+    transition: 0.3s; */
+    background-color: #d89d14;
+    /* margin-top: -5px; */
+}
+
+#submit:active {
+    background-color: #C7395F;
+    box-shadow: 0 5px #666;
+    transform: translateY(3px);
+    transition: 0.2s;
+
+}
+
+span {
+    color: #E8BA40;
+    font-size: 1.8vw;
+    text-align: center;
+}
+.responsive {
+    width: auto;
+    height: auto;
+  }
